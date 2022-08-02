@@ -49,6 +49,13 @@ au BufNewFile,BufRead *.js,*.html,*.css set tabstop=2
 au BufNewFile,BufRead *.js,*.html,*.css set shiftwidth=2
 au BufNewFile,BufRead *.js,*.html,*.css set softtabstop=2
 
+" markdown
+au BufRead,BufNewFile *.md set tabstop=4
+au BufRead,BufNewFile *.md set softtabstop=4
+au BufRead,BufNewFile *.md set autoindent
+au BufRead,BufNewFile *.md set shiftwidth=4
+au BufRead,BufNewFile *.md set expandtab
+
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
 

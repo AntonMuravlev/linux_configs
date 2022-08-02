@@ -36,18 +36,18 @@ set splitbelow
 set splitright
 
 "PEP8
-au BufRead,BufNewFile *.py,*pyw set tabstop=4
-au BufRead,BufNewFile *.py,*pyw set softtabstop=4
-au BufRead,BufNewFile *.py,*pyw set autoindent
-au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
-au BufRead,BufNewFile *.py,*.pyw set expandtab
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h set textwidth=79
-au BufNewFile *.py,*.pyw,*.c,*.h set fileformat=unix
+au BufRead,BufNewFile *.md,*.py,*pyw set tabstop=4
+au BufRead,BufNewFile *.md,*.py,*pyw set softtabstop=4
+au BufRead,BufNewFile *.md,*.py,*pyw set autoindent
+au BufRead,BufNewFile *.md,*.py,*pyw set shiftwidth=4
+au BufRead,BufNewFile *.md,*.py,*.pyw set expandtab
+au BufRead,BufNewFile *.md,*.py,*.pyw,*.c,*.h set textwidth=79
+au BufNewFile *.md,*.py,*.pyw,*.c,*.h set fileformat=unix
 
 " for full stack development
-au BufNewFile,BufRead *.js, *.html, *.css set tabstop=2
-au BufNewFile,BufRead *.js, *.html, *.css set shiftwidth=2
-au BufNewFile,BufRead *.js, *.html, *.css set softtabstop=2
+au BufNewFile,BufRead *.js,*.html,*.css set tabstop=2
+au BufNewFile,BufRead *.js,*.html,*.css set shiftwidth=2
+au BufNewFile,BufRead *.js,*.html,*.css set softtabstop=2
 
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
